@@ -1035,10 +1035,33 @@ Function scriptModuleImport {
     }
 }
 
-Clear-Host
+
 # FUNCTION - changing window size
 changeWindowSize
 
+Clear-Host
+Write-Host "                                                                               " -Foregroundcolor Red
+Write-Host "                                                                               " -Foregroundcolor Red
+Write-Host "HHHHHHHHH     HHHHHHHHH     DDDDDDDDDDDDD             RRRRRRRRRRRRRRRRR        " -Foregroundcolor Red
+Write-Host "H:::::::H     H:::::::H     D::::::::::::DDD          R::::::::::::::::R       " -Foregroundcolor Red
+Write-Host "H:::::::H     H:::::::H     D:::::::::::::::DD        R::::::RRRRRR:::::R      " -Foregroundcolor Red
+Write-Host "HH::::::H     H::::::HH     DDD:::::DDDDD:::::D       RR:::::R     R:::::R     " -Foregroundcolor Red
+Write-Host "  H:::::H     H:::::H         D:::::D    D:::::D        R::::R     R:::::R     " -Foregroundcolor Red
+Write-Host "  H:::::H     H:::::H         D:::::D     D:::::D       R::::R     R:::::R     " -Foregroundcolor Red
+Write-Host "  H::::::HHHHH::::::H         D:::::D     D:::::D       R::::RRRRRR:::::R      " -Foregroundcolor Red
+Write-Host "  H:::::::::::::::::H         D:::::D     D:::::D       R:::::::::::::RR       " -Foregroundcolor Red
+Write-Host "  H:::::::::::::::::H         D:::::D     D:::::D       R::::RRRRRR:::::R      " -Foregroundcolor Red
+Write-Host "  H::::::HHHHH::::::H         D:::::D     D:::::D       R::::R     R:::::R     " -Foregroundcolor Red
+Write-Host "  H:::::H     H:::::H         D:::::D     D:::::D       R::::R     R:::::R     " -Foregroundcolor Red
+Write-Host "  H:::::H     H:::::H         D:::::D    D:::::D        R::::R     R:::::R     " -Foregroundcolor Red
+Write-Host "HH::::::H     H::::::HH     DDD:::::DDDDD:::::D       RR:::::R     R:::::R     " -Foregroundcolor Red
+Write-Host "H:::::::H     H:::::::H     D:::::::::::::::DD        R::::::R     R:::::R     " -Foregroundcolor Red
+Write-Host "H:::::::H     H:::::::H     D::::::::::::DDD          R::::::R     R:::::R     " -Foregroundcolor Red
+Write-Host "HHHHHHHHH     HHHHHHHHH     DDDDDDDDDDDDD             RRRRRRRR     RRRRRRR     " -Foregroundcolor Red
+Write-Host "                                                                               " -Foregroundcolor Red
+Write-Host "                                                                               " -Foregroundcolor Red
+
+Clear-Host
 # define Variable Handoff
 $hSetup = [ordered]@{}
 

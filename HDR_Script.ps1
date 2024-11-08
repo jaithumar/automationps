@@ -1061,7 +1061,7 @@ Write-Host "HHHHHHHHH     HHHHHHHHH     DDDDDDDDDDDDD             RRRRRRRR     R
 Write-Host "                                                                               " -Foregroundcolor Red
 Write-Host "                                                                               " -Foregroundcolor Red
 
-Clear-Host
+
 # define Variable Handoff
 $hSetup = [ordered]@{}
 
